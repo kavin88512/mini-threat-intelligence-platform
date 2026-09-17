@@ -1,0 +1,9 @@
+IOC,Type,Normalized IOC,Reputation,Malicious,Suspicious,Total Engines,Detection Ratio,Risk Score,Risk Level,Priority,Recommended Action,Abuse Confidence,Abuse Reports,Country,ISP,Usage Type,OTX Pulses,OTX Threat Context,Enrichment Status
+8.8.8.8,IP Address,8.8.8.8,clean,0,0,89,0.0,0.0,LOW,P4,Monitor,0,202,,Google LLC,Content Delivery Network,0,,SUCCESS
+GOOGLE.COM,Domain,google.com,malicious,2,0,89,2.25,2.02,LOW,P4,Monitor,,,,,,0,,SUCCESS
+https://example.com/login,URL,https://example.com/login,clean,0,0,90,0.0,0.0,LOW,P4,Monitor,,,,,,,,NOT_FOUND
+44d88612fea8a8f36de82e1278abb02f,MD5 Hash,44d88612fea8a8f36de82e1278abb02f,malicious,65,0,74,87.84,79.05,CRITICAL,P1,Immediate investigation and containment,,,,,,50,Umbald • Neconyd • Banker.LY • Ramnit  • Malicious Media (Credit OctoSeek 11/06/2026); Auditoría_Servicios_Críticos_Jeff; Loki scan; Lab-ThreatIntel-31CXREYES; Windows Threat Hunting Lab,SUCCESS
+356a192b7913b04c54574d18c28d46e6395428ab,SHA-1 Hash,356a192b7913b04c54574d18c28d46e6395428ab,clean,0,0,74,0.0,0.0,LOW,P4,Monitor,,,,,,50,"Umbald • Neconyd • Banker.LY • Ramnit  • Malicious Media (Credit OctoSeek 11/06/2026); Credit Q.Vashti Title: Packed sentient.industries links to a targets business website [user notes: phone shutoff aug 24-sept 15, still no answer why- store magically unlocked it] these dates align; CAPE Sandbox; Konni clean; check Konni",SUCCESS
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,SHA-256 Hash,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,clean,0,0,74,0.0,0.0,LOW,P4,Monitor,,,,,,50,"VirusTotal Box of Apples Sandbox report; VirusTotal report
+                    for install_setup_en_FonePaw Video Converter Ultimate-10.8.0.dmg; Compromised integrity; BLOCK_2024; BLOCK_2025_DIC",SUCCESS
+hello123,Unknown,hello123,not_found,0,0,0,0.0,0.0,UNKNOWN,P4,Manual review,,,,,,,,NOT_SUPPORTED

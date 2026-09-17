@@ -1,0 +1,141 @@
+======================================================================
+SOC THREAT INTELLIGENCE INVESTIGATION REPORT
+======================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+Total IOCs analysed: 7
+The investigation identified 1 CRITICAL, 0 HIGH, 0 MEDIUM, 5 LOW and 1 UNKNOWN risk indicators.
+
+2. RISK SUMMARY
+----------------------------------------------------------------------
+CRITICAL: 1
+HIGH:     0
+MEDIUM:   0
+LOW:      5
+UNKNOWN:  1
+
+3. PRIORITY SUMMARY
+----------------------------------------------------------------------
+P1: 1
+P2: 0
+P3: 0
+P4: 6
+
+4. THREAT INTELLIGENCE ENRICHMENT
+----------------------------------------------------------------------
+Successful:    5
+Not Found:     1
+Not Supported: 1
+Errors:        0
+
+5. HIGHEST PRIORITY IOC
+----------------------------------------------------------------------
+IOC: 44d88612fea8a8f36de82e1278abb02f
+Priority: P1
+Risk Level: CRITICAL
+
+6. IOC INVESTIGATION DETAILS
+----------------------------------------------------------------------
+
+[1] 8.8.8.8
+Type: IP Address
+Risk Level: LOW
+Priority: P4
+Detection Ratio: 0.0%
+Malicious Detections: 0
+Suspicious Detections: 0
+Reputation: clean
+Enrichment Status: SUCCESS
+OTX Pulses: 0
+Investigation Status: CLOSED
+Investigation Reason: No significant malicious or suspicious detections were identified by VirusTotal.
+Analyst Recommendation: Monitor the IOC and retain it for future correlation.
+
+[2] GOOGLE.COM
+Type: Domain
+Risk Level: LOW
+Priority: P4
+Detection Ratio: 2.25%
+Malicious Detections: 2
+Suspicious Detections: 0
+Reputation: malicious
+Enrichment Status: SUCCESS
+OTX Pulses: 0
+Investigation Status: NEW
+Investigation Reason: Limited reputation detections were identified. VirusTotal reported 2 malicious and 0 suspicious detections. Current risk classification is LOW.
+Analyst Recommendation: Monitor the IOC and retain it for future correlation.
+
+[3] https://example.com/login
+Type: URL
+Risk Level: LOW
+Priority: P4
+Detection Ratio: 0.0%
+Malicious Detections: 0
+Suspicious Detections: 0
+Reputation: clean
+Enrichment Status: NOT_FOUND
+OTX Pulses: N/A
+Investigation Status: NEW
+Investigation Reason: No significant malicious or suspicious detections were identified by VirusTotal. The enrichment source did not return a matching record.
+Analyst Recommendation: Monitor the IOC and retain it for future correlation.
+
+[4] 44d88612fea8a8f36de82e1278abb02f
+Type: MD5 Hash
+Risk Level: CRITICAL
+Priority: P1
+Detection Ratio: 87.84%
+Malicious Detections: 65
+Suspicious Detections: 0
+Reputation: malicious
+Enrichment Status: SUCCESS
+OTX Pulses: 50
+Investigation Status: IN PROGRESS
+Investigation Reason: High malicious detection ratio reported by VirusTotal (87.84%). IOC is classified as CRITICAL and assigned P1 priority. OTX enrichment returned 50 related threat intelligence pulse(s) for further investigation.
+Analyst Recommendation: Immediate investigation and containment. Review affected endpoints, network activity, security logs and related IOCs. Review the available OTX threat context and related threat intelligence pulses.
+
+[5] 356a192b7913b04c54574d18c28d46e6395428ab
+Type: SHA-1 Hash
+Risk Level: LOW
+Priority: P4
+Detection Ratio: 0.0%
+Malicious Detections: 0
+Suspicious Detections: 0
+Reputation: clean
+Enrichment Status: SUCCESS
+OTX Pulses: 50
+Investigation Status: NEW
+Investigation Reason: No significant malicious or suspicious detections were identified by VirusTotal. OTX enrichment returned 50 related threat intelligence pulse(s) for further investigation.
+Analyst Recommendation: Monitor the IOC and retain it for future correlation. Review the available OTX threat context and related threat intelligence pulses.
+
+[6] e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Type: SHA-256 Hash
+Risk Level: LOW
+Priority: P4
+Detection Ratio: 0.0%
+Malicious Detections: 0
+Suspicious Detections: 0
+Reputation: clean
+Enrichment Status: SUCCESS
+OTX Pulses: 50
+Investigation Status: NEW
+Investigation Reason: No significant malicious or suspicious detections were identified by VirusTotal. OTX enrichment returned 50 related threat intelligence pulse(s) for further investigation.
+Analyst Recommendation: Monitor the IOC and retain it for future correlation. Review the available OTX threat context and related threat intelligence pulses.
+
+[7] hello123
+Type: Unknown
+Risk Level: UNKNOWN
+Priority: P4
+Detection Ratio: 0.0%
+Malicious Detections: 0
+Suspicious Detections: 0
+Reputation: not_found
+Enrichment Status: NOT_SUPPORTED
+OTX Pulses: N/A
+Investigation Status: NEW
+Investigation Reason: Automated reputation information is unavailable. Manual investigation is required because available reputation evidence is insufficient. Threat intelligence enrichment is not supported for this IOC.
+Analyst Recommendation: Perform manual investigation because automated reputation information is unavailable.
+
+======================================================================
+END OF SOC INVESTIGATION REPORT
+======================================================================
